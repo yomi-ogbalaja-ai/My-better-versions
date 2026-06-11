@@ -1,0 +1,28 @@
+# Go
+app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Frontend
+frontend/node_modules/
+frontend/dist/*
+!frontend/dist/index.html
+frontend/dist-singlefile/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
